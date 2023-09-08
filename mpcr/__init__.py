@@ -62,7 +62,7 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'flashtorch'])
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'barbar'])
 
 
-from flashtorch.utils import apply_transforms
+# from flashtorch.utils import apply_transforms
 from flashtorch.saliency import Backprop
 import itertools
 from barbar import Bar
